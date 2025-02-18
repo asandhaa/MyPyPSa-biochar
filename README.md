@@ -1,15 +1,24 @@
 # MyPyPSa-biochar
 
 
-MyPyPSA-biochar, a myopic optimization model developed to represent the German energy system with a detailed mapping of the electricity sector, on a highly disaggregated level, spatially and temporally, with regional differences and investment limitations. Pyrolysis is implemented as a power generator and a negative emission technology by the production of biochar
+MyPyPSA-biochar, a myopic optimization model developed to represent the German energy system with a detailed mapping of the electricity sector, on a highly disaggregated level, spatially and temporally, with regional differences and investment limitations. Pyrolysis is implemented as a power generator and a negative emission technology.
 
 MyPyPSA-Ger was developed by [EEW group](https://ines.hs-offenburg.de/forschung/energiesysteme-und-energiewirtschaft) at [Hochschule Offenburg](https://www.hs-offenburg.de/). 
 MyPyPSA-biochar model is built using the Modeling Framework [MyPyPSA-Ger](https://github.com/AnasAbuzayed/MyPyPSA-Ger/), and upon [PyPSA-Eur](https://github.com/PyPSA/pypsa-eur).
 
 The model is described in the paper [Pyrolysis as a Strategic Element in Energy System Transformation to Achieve Net Zero Emissions](Include Link) 
 
+## Contents
 
-# Installation 
+- [Introduction](#introduction)
+- [Data](#data)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+## Installation 
 
 ## Clone the Repository 
 
@@ -17,15 +26,14 @@ The model is described in the paper [Pyrolysis as a Strategic Element in Energy 
 
 /some/path/without/spaces % git clone https://github.com/asandhaa/MyPyPSA-biochar.git
 
-
 ## Install the Library
 
-% cd MyPyPSA-Ger
+% cd MyPyPSA-biochar
 
-% conda create --name MyPyPSA-Ger --file environment.yml
+% conda create --name MyPyPSA-biochar --file environment.yml
 
 as Hier geht's weiter
-## Use the Model
+## Usage
 ### 1. To use the model, first we need to create the base network using [PyPSA-Eur](https://github.com/PyPSA/pypsa-eur). You need to install the cutouts and data to be used in the model, either by running the code below or manually from [Zenodo](https://zenodo.org/record/6827030#.YtFzv3bP1zo).
 
 % cd MyPyPSA-Ger
