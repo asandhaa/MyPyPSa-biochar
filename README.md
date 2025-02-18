@@ -58,6 +58,8 @@ In the main directory, you will find several folders model's data. Among these:
 
 % conda create --name MyPyPSA-biochar --file environment.yml
 
+### Download a Solver of your choice
+
 ## Usage
 ### 1. BAU and Pyrolysis scenario
 To run either the BAU or the Pyrolysis scenario, only the correct starting network from the folder `starting networks/` needs to be copied into the main folder and the prefix [BAU scenario] or [Pyrolysis scenario] needs to be deleted.
@@ -80,17 +82,18 @@ Scenario setting can be adapted:
 
 ### 3. Run MyPyPSA-biochar model
 
-% conda activate MyPyPSA-biochar
-
-% python Model.py
-
+```bash
+conda activate MyPyPSA-biochar
+python Model.py
+```
 % enter data network name
-
-% elec_s_37_ecb_lcopt_Co2L-1H-Ep-CCL.nc
-
+```bash
+elec_s_37_ecb_lcopt_Co2L-1H-Ep-CCL.nc
+```
 % enter regional potential value
-
-% 2500
+```bash
+2500
+```
 
 The results of this model will be saved in the folder `/elec_s_37_ecb_lcopt_Co2L-1H-Ep` within the main repository.
 ## License
